@@ -1,0 +1,15 @@
+🎯 Evaluation Metrics:
+Accuracy: 98.31%
+AUC: 0.9957
+EER: 0.0169 (at threshold 0.9181)
+FAR: 0.0169
+FRR: 0.0170
+Confusion Matrix:
+[[95902  1644]
+ [   59  3420]]
+
+📊 Graphs saved in ./evaluation_plots/
+Accuracy graph:we will get it but i am unable to upload the pictures here 
+Heat Map for confusion matrix: 
+AUC-ROC Curve:
+ 
