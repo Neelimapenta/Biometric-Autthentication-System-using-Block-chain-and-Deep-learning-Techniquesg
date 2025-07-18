@@ -10,7 +10,7 @@ export CORE_PEER_MSPCONFIGPATH=/home/biometric/1/fabric-samples/test-network/org
 export CORE_PEER_ADDRESS=localhost:7051
 peer chaincode query -C mychannel -n cidrecord -c '{"function":"GetAllCIDRecords","Args":[]}'
 ipfs daemon
-
+source venv/bin/activate
 ======================================================================================================================================================================================
 ./network.sh deployCC -ccn cidrecord -ccp ../asset-transfer-basic/chaincode-go -ccl go
 ./network.sh up createChannel -ca
